@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.js": "/mikeg1804.github.io/mike_germain_profile/static/js/main.21b7af67.js",
-    "static/media/Horiseon.png": "/mikeg1804.github.io/mike_germain_profile/static/media/Horiseon.403d8ac6f0a252fa3b86.png",
-    "static/media/SoYoureLookingForAHotel.png": "/mikeg1804.github.io/mike_germain_profile/static/media/SoYoureLookingForAHotel.b183736f6c8511b25e9a.png",
-    "static/media/HTMLPortfolioWebsite.png": "/mikeg1804.github.io/mike_germain_profile/static/media/HTMLPortfolioWebsite.3dc26dd8af110d88b3ee.png",
-    "static/media/TechBlogger.png": "/mikeg1804.github.io/mike_germain_profile/static/media/TechBlogger.c8d0211f6ce1b2685e32.png",
-    "static/media/ProperReadmeApp.png": "/mikeg1804.github.io/mike_germain_profile/static/media/ProperReadmeApp.69a4c8bee7f6f2f4f147.png",
-    "static/media/RegExTutorial.png": "/mikeg1804.github.io/mike_germain_profile/static/media/RegExTutorial.21bdb99f944840d9a681.png",
-    "static/media/EmployeeDatabaseManagementSystem.png": "/mikeg1804.github.io/mike_germain_profile/static/media/EmployeeDatabaseManagementSystem.179b715c2c22a0a2d240.png",
-    "static/media/LogoMakerApp.png": "/mikeg1804.github.io/mike_germain_profile/static/media/LogoMakerApp.fced0b2a982f253519ca.png",
-    "static/media/SocialMediaNetwork.png": "/mikeg1804.github.io/mike_germain_profile/static/media/SocialMediaNetwork.bc74c25abfa39b61389e.png",
-    "static/media/eCommerceApp.png": "/mikeg1804.github.io/mike_germain_profile/static/media/eCommerceApp.0b81259f60af3f952a6f.png",
-    "static/media/Jate.png": "/mikeg1804.github.io/mike_germain_profile/static/media/Jate.4c73ba6778b41d88323c.png",
-    "static/media/PasswordGenerationWebsite.png": "/mikeg1804.github.io/mike_germain_profile/static/media/PasswordGenerationWebsite.f9d30b1f5a782862e616.png",
-    "static/media/WorkDayScheduler.png": "/mikeg1804.github.io/mike_germain_profile/static/media/WorkDayScheduler.54964da541ca0cc5dfc2.png",
-    "static/media/WeatherForecast.png": "/mikeg1804.github.io/mike_germain_profile/static/media/WeatherForecast.6052d487c35b713cdeab.png",
-    "static/media/Chirper.png": "/mikeg1804.github.io/mike_germain_profile/static/media/Chirper.0bfee8dbf1ea237bea1f.png",
-    "static/media/NoteTakerApp.png": "/mikeg1804.github.io/mike_germain_profile/static/media/NoteTakerApp.a34eb9f09c9080504e0e.png",
-    "static/media/CodeTimer.png": "/mikeg1804.github.io/mike_germain_profile/static/media/CodeTimer.91eb2ca641fcfeb16556.png",
-    "index.html": "/mikeg1804.github.io/mike_germain_profile/index.html",
-    "main.21b7af67.js.map": "/mikeg1804.github.io/mike_germain_profile/static/js/main.21b7af67.js.map"
+    "main.js": "/mike_germainprofileapp/static/js/main.6ca8884d.js",
+    "static/media/Horiseon.png": "/mike_germainprofileapp/static/media/Horiseon.403d8ac6f0a252fa3b86.png",
+    "static/media/SoYoureLookingForAHotel.png": "/mike_germainprofileapp/static/media/SoYoureLookingForAHotel.b183736f6c8511b25e9a.png",
+    "static/media/HTMLPortfolioWebsite.png": "/mike_germainprofileapp/static/media/HTMLPortfolioWebsite.3dc26dd8af110d88b3ee.png",
+    "static/media/TechBlogger.png": "/mike_germainprofileapp/static/media/TechBlogger.c8d0211f6ce1b2685e32.png",
+    "static/media/ProperReadmeApp.png": "/mike_germainprofileapp/static/media/ProperReadmeApp.69a4c8bee7f6f2f4f147.png",
+    "static/media/RegExTutorial.png": "/mike_germainprofileapp/static/media/RegExTutorial.21bdb99f944840d9a681.png",
+    "static/media/EmployeeDatabaseManagementSystem.png": "/mike_germainprofileapp/static/media/EmployeeDatabaseManagementSystem.179b715c2c22a0a2d240.png",
+    "static/media/LogoMakerApp.png": "/mike_germainprofileapp/static/media/LogoMakerApp.fced0b2a982f253519ca.png",
+    "static/media/SocialMediaNetwork.png": "/mike_germainprofileapp/static/media/SocialMediaNetwork.bc74c25abfa39b61389e.png",
+    "static/media/eCommerceApp.png": "/mike_germainprofileapp/static/media/eCommerceApp.0b81259f60af3f952a6f.png",
+    "static/media/Jate.png": "/mike_germainprofileapp/static/media/Jate.4c73ba6778b41d88323c.png",
+    "static/media/PasswordGenerationWebsite.png": "/mike_germainprofileapp/static/media/PasswordGenerationWebsite.f9d30b1f5a782862e616.png",
+    "static/media/WorkDayScheduler.png": "/mike_germainprofileapp/static/media/WorkDayScheduler.54964da541ca0cc5dfc2.png",
+    "static/media/WeatherForecast.png": "/mike_germainprofileapp/static/media/WeatherForecast.6052d487c35b713cdeab.png",
+    "static/media/Chirper.png": "/mike_germainprofileapp/static/media/Chirper.0bfee8dbf1ea237bea1f.png",
+    "static/media/NoteTakerApp.png": "/mike_germainprofileapp/static/media/NoteTakerApp.a34eb9f09c9080504e0e.png",
+    "static/media/CodeTimer.png": "/mike_germainprofileapp/static/media/CodeTimer.91eb2ca641fcfeb16556.png",
+    "index.html": "/mike_germainprofileapp/index.html",
+    "main.6ca8884d.js.map": "/mike_germainprofileapp/static/js/main.6ca8884d.js.map"
   },
   "entrypoints": [
-    "static/js/main.21b7af67.js"
+    "static/js/main.6ca8884d.js"
   ]
 }
