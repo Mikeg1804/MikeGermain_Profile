@@ -12,8 +12,8 @@ function Bio() {
 
      <Box
       sx={{
-        width: 600,
-        height: 100,
+        width: 1500,
+        height: 500,
         backgroundColor: 'primary.dark',
         '&:hover': {
           backgroundColor: 'primary.main',
