@@ -1,9 +1,11 @@
 
 import React, {useState } from 'react';
 
+
 import Bio from './components/Bio';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
+import MyPicture from './images/MyPicture.jpg';
 
 
 import {Box, Button, AppBar, Toolbar, Typography
@@ -45,7 +47,7 @@ function Aboutme() {
   };
   return (
     <Box sx={{ flexGrow: 1,
-      backgroundImage:  `url(${process.env.PUBLIC_URL}./images/MyPicture.jpg)`,
+      backgroundImage: `url(${MyPicture})`,
       backgroundSize: 'cover',
       minHeight: '100vh',
       backgroundColor: 'Beige',
@@ -74,6 +76,7 @@ function Aboutme() {
     {showResume && <Resume />}
     {showPortfolio && <Portfolio />}
     {showContact && <Contact />}
+
   </Box>
   );
 }

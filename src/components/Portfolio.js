@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Link } from '@material-ui/core';
+import { Link, Typography } from '@mui/material';
 import HoriseonImage from '../images/Horiseon.png';
 import HTMLPortfolioWebsite from '../images/HTMLPortfolioWebsite.png';
 import PasswordGeneratorImage from '../images/PasswordGenerationWebsite.png';
@@ -18,6 +18,8 @@ import ChirperImage from '../images/Chirper.png';
 import RegExTutorial from '../images/RegExTutorial.png';
 import SocialMediaNetwork from '../images/SocialMediaNetwork.png';
 import Jate from '../images/Jate.png';
+
+const textColor = 'beige';
 
 
 
@@ -111,8 +113,9 @@ const JateHandleClick = () => {
 
 return(
      
-    <div>  
-
+    <div> 
+     <Typography sx={{ color: textColor, paddingLeft: '20px' }}><h1>See Below for a list of Apps that Mike built. Please click on the title of each of the projects for more details:</h1> 
+     </Typography> 
     <h4> 
     <div>
       <Link
@@ -120,7 +123,7 @@ return(
         variant="body2"
         onClick={HoriseonHandleClick}
       >
-        Horiseon-Refactor Website
+       <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Horiseon-Refactor Website</Typography> 
       </Link>
       {imageLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -142,7 +145,8 @@ return(
       variant="body2"
       onClick={PortfolioHandleClick}
     >
-      Mike-Germain Portfolio HTML Website
+      <Typography sx={{ color: textColor, paddingLeft: '20px' }}> Mike-Germain Portfolio HTML Website </Typography>
+
     </Link>
     {portfolioLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -163,7 +167,7 @@ return(
       variant="body2"
       onClick={PasswordGenHandleClick}
     >
-      Password Generator Web-based App
+     <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Password Generator Web-based App</Typography> 
     </Link>
     {passwordGenLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -183,7 +187,7 @@ return(
       variant="body2"
       onClick={CodeTimerHandleClick}
     >
-      Quizz Timer App
+      <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Quizz Timer App</Typography>
     </Link>
     {codeTimerLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -205,7 +209,7 @@ return(
       variant="body2"
       onClick={WorkdayHandleClick}
     >
-      Workday Scheduler Web-based App
+      <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Workday Scheduler Web-based App</Typography>
     </Link>
     {workdayLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -225,7 +229,7 @@ return(
       variant="body2"
       onClick={WeatherForecastHandleClick}
     >
-      Weather Forecast Web-based App
+    <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Weather Forecast Web-based App</Typography> 
     </Link>
     {weatherForecastLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -245,7 +249,7 @@ return(
       variant="body2"
       onClick={HotelImageHandleClick}
     >
-      So you're Looking for a Hotel Website
+     <Typography sx={{ color: textColor, paddingLeft: '20px' }}> So you're Looking for a Hotel Website</Typography>
     </Link>
     {hotelLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -265,7 +269,7 @@ return(
       variant="body2"
       onClick={ReadmeHandleClick}
     >
-      Proper Readme Generator App
+      <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Proper Readme Generator App</Typography>
     </Link>
     {readmeLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -285,7 +289,7 @@ return(
       variant="body2"
       onClick={LoggoMakerHandleClick}
     >
-      Logo-Maker In-development App
+     <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Logo-Maker In-development App</Typography> 
     </Link>
     {logoMakerLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -305,7 +309,7 @@ return(
       variant="body2"
       onClick={NoteTakerHandleClick }
     >
-      Note Taker In-development App
+     <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Note Taker In-development App</Typography> 
     </Link>
     {noteTakerLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -325,7 +329,7 @@ return(
       variant="body2"
       onClick={EmployeeDatabaseHandleClick}
     >
-      Employee Management System In-development App
+      <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Employee Management System In-development App</Typography>
     </Link>
     {employeeDatabaseLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -345,7 +349,7 @@ return(
       variant="body2"
       onClick={EcommerceHandleClick}
     >
-      Ecommerce Database In-development App
+      <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Ecommerce Database In-development App</Typography>
     </Link>
     {eCommerceLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -365,7 +369,7 @@ return(
       variant="body2"
       onClick={TechBlogHandleClick}
     >
-      Tech Blog Website
+      <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Tech Blog Website</Typography>
     </Link>
     {techBlogLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -385,7 +389,7 @@ return(
       variant="body2"
       onClick={ChirperHandleClick}
     >
-      Chirper Web-based Social Network App
+      <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Chirper Web-based Social Network App</Typography>
     </Link>
     {chirpLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -405,7 +409,7 @@ return(
       variant="body2"
       onClick={RegexHandleClick}
     >
-      Regex Tutorial Writing
+      <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Regex Tutorial Writing</Typography>
     </Link>
     {regexLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -425,7 +429,7 @@ return(
       variant="body2"
       onClick={ScocialMdeiaHandleClick}
     >
-      Social Network In-development App 
+       <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Social Network In-development App </Typography>
     </Link>
     {socialMediaLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">
@@ -445,7 +449,7 @@ return(
       variant="body2"
       onClick={JateHandleClick}
     >
-      Just Another Text Editor (JATE) Web-based App
+      <Typography sx={{ color: textColor, paddingLeft: '20px' }}>Just Another Text Editor (JATE) Web-based App</Typography>
     </Link>
     {jateLoaded && (
         <div style={{ width: '300px', height: '300px', border: '1px solid black' }} className="image-container">

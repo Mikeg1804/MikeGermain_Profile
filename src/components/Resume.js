@@ -1,11 +1,14 @@
-import { Button } from '@mui/material'
+import { Button, Typography } from '@mui/material'
 import React from 'react'
+
+
 
 const Resume = () => {
   return (
     <div>
-    Resume
-    <Button href='/resume/resume.pdf'>DownLoad Resume</Button>
+   <Typography sx={{ color: 'white', paddingLeft: '20px' }}>
+    <Button href='/resume/resume.pdf'><Typography sx={{ color: 'beige'}}>DownLoad Resume </Typography></Button>
+    </Typography>
     </div>
   )
 }
