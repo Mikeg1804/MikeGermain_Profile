@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Link, Typography } from '@mui/material';
+import {Box, Link, Typography } from '@mui/material';
 import HoriseonImage from '../images/Horiseon.png';
 import HTMLPortfolioWebsite from '../images/HTMLPortfolioWebsite.png';
 import PasswordGeneratorImage from '../images/PasswordGenerationWebsite.png';
@@ -114,8 +114,26 @@ const JateHandleClick = () => {
 return(
      
     <div> 
+           <Box
+         sx={{
+          width: 1500,
+          height: 200,
+          boxShadow: 100,
+          backgroundColor: 'rgba(100, 100, 100)',
+            }}
+     >
      <Typography sx={{ color: textColor, paddingLeft: '20px' }}><h1>See Below for a list of Apps that Mike built. Please click on the title of each of the projects for more details:</h1> 
-     </Typography> 
+     </Typography>
+     </Box>
+
+     <Box
+         sx={{
+          width: 450,
+          height: 1000,
+          boxShadow: 100,
+          backgroundColor: 'rgba(100, 100, 100)',
+            }}
+     >
     <h4> 
     <div>
       <Link
@@ -463,10 +481,13 @@ return(
       </div>
       )}
     </h4>
+    </Box>
     </div>  
 );
 };
 
 export default Portfolio;
+
+
 
 

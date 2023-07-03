@@ -11,17 +11,15 @@ function Bio() {
       <Box
         sx={{
           width: 1500,
-          height: 500,
+          height: 200,
+          boxShadow: 100,
+          backgroundColor: 'rgba(100, 100, 100)',
         }}
       >
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <Typography sx={{ color: 'beige', paddingLeft: '800px', paddingRight:'100px'}}>{text}</Typography>
+        
+        <Typography sx={{ color: 'white', paddingLeft: '450px', paddingRight:'300px', fontWeight: 'bold'}}>{text}</Typography>
+      
       </Box>
     </div>
   );
