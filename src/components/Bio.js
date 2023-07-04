@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Box, Typography } from '@mui/material';
 
 function Bio() {
@@ -10,21 +9,23 @@ function Bio() {
     <div>
       <Box
         sx={{
-          width: 1500,
-          height: 200,
+          maxWidth: '100%',
+          width: '75%',
+          height: 'auto',
           boxShadow: 100,
-          backgroundColor: 'rgba(100, 100, 100)',
+          paddingLeft: '80px',
+          backgroundColor: 'rgba(50, 50, 50)',
         }}
       >
         <br />
         
-        <Typography sx={{ color: 'white', paddingLeft: '450px', paddingRight:'300px', fontWeight: 'bold'}}>{text}</Typography>
+        <Typography sx={{ color: 'white', padding: '16px', fontWeight: 'bold' }}>
+          {text}
+        </Typography>
       
       </Box>
     </div>
   );
 }
-
-
 
 export default Bio;

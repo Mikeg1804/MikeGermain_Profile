@@ -19,7 +19,7 @@ import RegExTutorial from '../images/RegExTutorial.png';
 import SocialMediaNetwork from '../images/SocialMediaNetwork.png';
 import Jate from '../images/Jate.png';
 
-const textColor = 'beige';
+const textColor = 'white';
 
 
 
@@ -114,26 +114,30 @@ const JateHandleClick = () => {
 return(
      
     <div> 
-           <Box
-         sx={{
-          width: 1500,
-          height: 200,
+      <Box
+        sx={{
+          maxWidth: '100%',
+          height: 'auto',
           boxShadow: 100,
-          backgroundColor: 'rgba(100, 100, 100)',
-            }}
-     >
+          backgroundColor: 'rgba(50, 50, 50)',
+          padding: '20px',
+          overflowWrap: 'break-word',
+        }}
+      >
      <Typography sx={{ color: textColor, paddingLeft: '20px' }}><h1>See Below for a list of Apps that Mike built. Please click on the title of each of the projects for more details:</h1> 
      </Typography>
      </Box>
 
      <Box
-         sx={{
-          width: 450,
-          height: 1000,
+        sx={{
+          maxWidth: '100%',
+          height: 'auto',
           boxShadow: 100,
-          backgroundColor: 'rgba(100, 100, 100)',
-            }}
-     >
+          backgroundColor: 'rgba(50, 50, 50)',
+          padding: '20px',
+          overflowWrap: 'break-word',
+        }}
+      >
     <h4> 
     <div>
       <Link
