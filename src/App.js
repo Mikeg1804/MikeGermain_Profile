@@ -139,7 +139,7 @@ function Aboutme() {
           textAlign: 'center',
         }}
       >
-        React Based App Engineered and Developed by Mike Germain
+        React based app engineered and developed by Mike Germain
       </Box>
     </Box>
   );
