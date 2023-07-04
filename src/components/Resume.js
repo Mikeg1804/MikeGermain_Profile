@@ -30,7 +30,7 @@ const Resume = () => {
           }}
         >
 
-    <h4>Michael Germain is a seasoned and dynamic financial and investment professional with a remarkable career highlighted by strategic financial management, venture investments, and expertise in finance, accounting, and technology. With a proven track record of success, Michael has held pivotal leadership positions in renowned investment firms, driving growth and delivering exceptional results.</h4>
+    <h4>Michael Germain is a seasoned and dynamic executive and investment professional with a remarkable career highlighted by strategic financial management, venture investments, and expertise in finance, accounting, and technology. With a proven track record of success, Michael has held pivotal leadership positions in renowned investment firms, driving growth and delivering exceptional results.</h4>
   
     <h4>Furthermore, Mike designed and executed a strategic growth plan for TRUE through mergers and acquisitions (M&A) and organic expansion. His visionary approach and analytical acumen enabled him to help with due diligence to assess good acquisition targets. Mike co-spearheaded the buy-side acquisition efforts, successfully growing TRUE's assets under management (AUM) from one billion dollars to two billion dollars. Additionally, he co-led the sell-side efforts, orchestrating a successful exit for TRUE's owners, generating significant returns on their investments.</h4>
 
